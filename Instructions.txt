@@ -1,0 +1,31 @@
+**Running the Flask App**
+
+1. Install the required packages. You can install them using pip:
+
+    ```
+    pip install flask flask_sqlalchemy flask_marshmallow marshmallow-sqlalchemy
+    ```
+
+2. Navigate to the directory containing your Flask app's Python file. Run the following command:
+
+    ```
+    python taxiBooking.py
+    ```
+
+    You should see output indicating that the server is running, typically on `localhost` on port `5000`.
+
+**Running the Test File**
+
+Before you run the tests, make sure you have installed the required packages. In addition to the ones required for running the app, you also need `pytest`:
+
+```
+pip install pytest
+```
+
+Here's how you can run the test file:
+
+1. Navigate to the directory containing your test file. Run the following command:
+
+    ```
+    python -m pytest taxiBooking_test.py
+    ```
